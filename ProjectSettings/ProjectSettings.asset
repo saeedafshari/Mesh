@@ -170,10 +170,10 @@ PlayerSettings:
     Standalone: com.Company.ProductName
     iPhone: com.neatgames.mesh
   buildNumber:
-    iPhone: 30001
-  AndroidBundleVersionCode: 30001
+    iPhone: 30200
+  AndroidBundleVersionCode: 30200
   AndroidMinSdkVersion: 23
-  AndroidTargetSdkVersion: 27
+  AndroidTargetSdkVersion: 28
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -264,7 +264,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/s_a/OneDrive/Neat/Keys/neatkey
+  AndroidKeystoreName: I:/OneDrive/Neat/Keys/neatkey
   AndroidKeyaliasName: neat games
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
