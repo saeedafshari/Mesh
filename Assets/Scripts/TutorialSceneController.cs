@@ -15,8 +15,7 @@ public class TutorialSceneController : MonoBehaviour
 
         var scripts = new[]
         {
-            "Swipe your finger to draw an edge between nodes. Disconnect nodes by swiping on them. Win the game by making all nodes 0. May contain nuts, use with caution. A Neat Games production. (c) 2019 NeatCapital OU.",
-            "Swipe your finger to draw an edge between nodes. Disconnect nodes by swiping on them. Win the game by making all nodes 0. If the game lasts for more than four hours, call your doctor. A Neat Games production. (c) 2019 NeatCapital OU.",
+            "Swipe your finger to draw an edge between nodes.\nDisconnect nodes by swiping on them.\nWin the game by making all nodes 0.\n\nA Neat Games production.",
         };
 
         var script = $"Instructions:\n" + scripts[Random.Range(0, scripts.Length)];
