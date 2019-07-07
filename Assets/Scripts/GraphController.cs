@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class GraphController : MonoBehaviour
 {
@@ -87,6 +89,12 @@ public class GraphController : MonoBehaviour
         else if (Input.GetMouseButton(0))
         {
             HandleMouseMove();
+        }
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            ScreenCapture.CaptureScreenshot(
+                System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures),
+                DateTime.Now.Ticks + ".png"));
         }
     }
 
